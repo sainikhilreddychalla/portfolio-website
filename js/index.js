@@ -103,7 +103,6 @@ function switchDarkLightMode() {
     let darkTextHoverColor = "#ddd";
     let darkAccentColor = "#222";
     icon.onmouseover = () => {
-        console.log("James");
         icon.setAttribute("src","images/moon-full.svg");
     }
     icon.onmouseout = () => {
@@ -133,7 +132,6 @@ function switchDarkLightMode() {
         document.documentElement.style.setProperty('--light-accent-color',"#ccc");
 
         icon.onmouseover = () => {
-            console.log("James");
             icon.setAttribute("src","images/moon-full.svg");
         }
         icon.onmouseout = () => {
